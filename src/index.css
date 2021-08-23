@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* -------------------------------------------Navbar------------ */
+
+.navbar a:hover {
+    color: blue !important;
+}
+
+.menu-active {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+
+/* ------------------------------Home------------------------------------- */
+
+
+.get_started{
+  border-radius: 20px;
+  font-weight: 400;
+}
+
+.animated img {
+    border-radius: 20px;
+    animation:bouncy 2s ease-in-out infinite alternate-reverse both; 
+
+}
+@keyframes bouncy{
+    0%{transform: translateY(0);}
+    50%{transform: translateY(-10px);}
+    100%{transform: translateY(0);}
+}
+
+#header {
+    width: 100wh;
+    height: 90vh;
+}
+
+#header h1 {
+    font-weight: 700;
+    margin: 0 0 70px 0;
+}
+
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+/* ---------------------------------- */
+
+.heart{
+     /* width: 50px !important;  */
+    
+     /* top: 200px; */
+    height: 50px !important; 
+    border: 1px solid black;
+}
+
+/* #exp{
+    width: none;
+    height: none;
+    text-decoration: none;
+    border: none;
+    background-color: white;
+} */
+/* ---------------------------------------- */
+.card-img-top{
+    height: 400px;
+    width: auto;
+
+}
